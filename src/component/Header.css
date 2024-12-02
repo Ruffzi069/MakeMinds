@@ -1,0 +1,25 @@
+.makeminds{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1500px;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./wavy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    margin-bottom: 50px;
+}
+.makemind1{
+    font-size: 70px;
+    font-family: Glory;
+}
+.makemind2{
+    font-size: 45px;
+    font-family: Glory;
+    color: rgb(159, 250, 23);
+}
+

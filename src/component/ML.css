@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.imagecontainer3{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: white;
+    font-family: Glory;
+}
+
+#image11{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    border: 2px solid greenyellow;
+    height: 300px;
+    width: 100%;
+    border-radius: 33px;
+    transition-duration: 0.4s;
+    background-color: rgba(255, 255, 255, 0.089);
+}
+
+#image11:hover{
+    background-image:linear-gradient(to right, rgba(3, 252, 65, 0.703), rgba(165, 253, 32, 0.703));
+    transform: scale(1.02,1.02);
+}
+
+#boximg11{
+    height: 240px;
+    width: 190px;
+    background-image: url(./img11.jpg);
+    border-radius: 22px;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 20px;
+}
+
+.img11text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.btn1{
+    background-color: greenyellow;
+    color: black;
+    margin-top: 10px;
+}
+#image11:hover .btn1{
+    background-color: black;
+    color: greenyellow;
+}
+
+#image12{
+    display: flex;
+    align-items: center;
+    border: 2px solid greenyellow;
+    height: 300px;
+    width: 100%;
+    border-radius: 33px;
+    transition-duration: 0.4s;
+    background-color: rgba(255, 255, 255, 0.089);
+}
+
+#image12:hover{
+    background-image:linear-gradient(to right, rgba(3, 252, 65, 0.703), rgba(165, 253, 32, 0.703));
+    transform: scale(1.02,1.02);
+}
+
+#boximg12{
+    height: 240px;
+    width: 190px;
+    background-image: url(./img12.webp);
+    border-radius: 22px;
+    background-size: cover;
+    border: 2px solid white;
+    transition-duration: 0.4s;
+    margin-left: 20px;
+}
+
+.img12text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.btn2{
+    background-color: greenyellow;
+    color: black;
+    margin-top: 10px;
+}
+#image12:hover .btn2{
+    background-color: black;
+    color: greenyellow;
+}
+
+#image13{
+    display: flex;
+    align-items: center;
+    border: 2px solid greenyellow;
+    height: 300px;
+    width: 100%;
+    border-radius: 33px;
+    transition-duration: 0.4s;
+    background-color: rgba(255, 255, 255, 0.089);
+}
+
+#image13:hover{
+    background-image:linear-gradient(to right, rgba(3, 252, 65, 0.703), rgba(165, 253, 32, 0.703));
+    transform: scale(1.02,1.02);
+}
+
+#boximg13{
+    height: 240px;
+    width: 190px;
+    background-image: url(./img13.jpg);
+    border-radius: 22px;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 20px;
+}
+
+.img13text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.btn3{
+    background-color: greenyellow;
+    color: black;
+    margin-top: 10px;
+}
+#image13:hover .btn3{
+    background-color: black;
+    color: greenyellow;
+}
+
+
+
+@font-face {
+    font-family: Glory;
+    src: url(../Glory-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Gloryitalic;
+    src: url(../Glory-Italic-VariableFont_wght.ttf);
+}

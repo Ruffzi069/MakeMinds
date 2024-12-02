@@ -1,0 +1,418 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.imagecontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 1350px;
+    height: auto;
+    color: white;
+    font-family: Glory;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    position: relative;
+    margin-left: 395px;
+}
+
+#image1{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid greenyellow;
+    height: 500px;
+    width: 49%;
+    border-radius: 33px;
+    transition-duration: 2s;
+    background-color: rgba(255, 255, 255, 0.089);
+}
+
+#image1:hover{
+    position: relative;
+    background-image:linear-gradient(to right, rgba(71, 4, 134, 0.863), rgba(121, 0, 154, 0.868));
+    transform: scale(1.2,1.2);
+    width: 50%;
+    z-index: 1;
+}
+
+
+#boximg1{
+    height: 240px;
+    width: 190px;
+    background-image: url(./img1.jpeg);
+    border-radius: 22px;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 20px;
+}
+
+.img1text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+h1{
+    font-size: 80px;
+}
+
+p{
+    font-size: 30px;
+}
+
+.btn1{
+    background-color: greenyellow;
+    color: black;
+    margin-top: 10px;
+}
+#image1:hover .btn1{
+    background-color: black;
+    color: greenyellow;
+}
+
+#image2{
+    display: flex;
+    align-items: center;
+    border: 2px solid greenyellow;
+    height: 500px;
+    width: 49%;
+    border-radius: 33px;
+    transition-duration: 2s;
+    background-color: rgba(255, 255, 255, 0.089);
+    flex-direction: column;
+}
+
+#image2:hover{
+    position: relative;
+    background-image:linear-gradient(to right, rgba(71, 4, 134, 0.863), rgba(121, 0, 154, 0.868));
+    transform: scale(1.2,1.2);
+    width: 50%;
+    z-index: 1;
+    flex-shrink: unset;
+}
+
+#boximg2{
+    height: 240px;
+    width: 190px;
+    background-image: url(./img2.jpeg);
+    border-radius: 22px;
+    background-size: cover;
+    border: 2px solid white;
+    transition-duration: 0.4s;
+    margin-left: 20px;
+}
+
+.img2text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.btn2{
+    background-color: greenyellow;
+    color: black;
+    margin-top: 10px;
+}
+#image2:hover .btn2{
+    background-color: black;
+    color: greenyellow;
+}
+
+#image3{
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 2px solid greenyellow;
+    height: 500px;
+    width: 49%;
+    border-radius: 33px;
+    transition-duration: 2s;
+    background-color: rgba(255, 255, 255, 0.089);
+    flex-direction: column;
+}
+
+#image3:hover{
+    position: relative;
+    background-image:linear-gradient(to right, rgba(71, 4, 134, 0.863), rgba(121, 0, 154, 0.868));
+    transform: scale(1.2,1.2);
+    width: 50%;
+    z-index: 1;
+    flex-shrink: unset;
+}
+
+#boximg3{
+    height: 240px;
+    width: 190px;
+    background-image: url(./img3.jpeg);
+    border-radius: 22px;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 20px;
+}
+
+.img3text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.btn3{
+    background-color: greenyellow;
+    color: black;
+    margin-top: 10px;
+}
+#image3:hover .btn3{
+    background-color: black;
+    color: greenyellow;
+}
+
+#image4{
+    display: flex;
+    align-items: center;
+    border: 2px solid greenyellow;
+    height: 500px;
+    width: 49%;
+    border-radius: 33px;
+    transition-duration: 2s;
+    background-color: rgba(255, 255, 255, 0.089);
+    flex-direction: column;
+}
+
+#image4:hover{
+    position: relative;
+    background-image:linear-gradient(to right, rgba(71, 4, 134, 0.863), rgba(121, 0, 154, 0.868));
+    transform: scale(1.2,1.2);
+    width: 50%;
+    z-index: 1;
+    flex-shrink: unset;
+}
+
+#boximg4{
+    height: 240px;
+    width: 190px;
+    background-image: url(./img4.jpeg);
+    border-radius: 22px;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 20px;
+}
+
+.img4text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.btn4{
+    background-color: greenyellow;
+    color: black;
+    margin-top: 10px;
+}
+#image4:hover .btn4{
+    background-color: black;
+    color: greenyellow;
+}
+
+#image5{
+    display: flex;
+    align-items: center;
+    border: 2px solid greenyellow;
+    height: 500px;
+    width: 49%;
+    border-radius: 33px;
+    transition-duration: 2s;
+    background-color: rgba(255, 255, 255, 0.089);
+    flex-direction: column;
+}
+#image5:hover{
+    position: relative;
+    background-image:linear-gradient(to right, rgba(71, 4, 134, 0.863), rgba(121, 0, 154, 0.868));
+    transform: scale(1.2,1.2);
+    width: 50%;
+    z-index: 1;
+    flex-shrink: unset;
+}
+
+#boximg5{
+    height: 240px;
+    width: 190px;
+    background-image: url(./img5.jpeg);
+    border-radius: 22px;
+    background-size: cover;
+    border: 2px solid white;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.img5text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.btn5{
+    background-color: greenyellow;
+    color: black;
+    margin-top: 10px;
+}
+#image5:hover .btn5{
+    background-color: black;
+    color: greenyellow;
+}
+
+#image6-{
+    display: flex;
+    align-items: center;
+    border: 2px solid greenyellow;
+    height: 500px;
+    width: 49%;
+    border-radius: 33px;
+    transition-duration: 2s;
+    background-color: rgba(255, 255, 255, 0.089);
+    flex-direction: column;
+    margin-top: -10px;
+    position: relative;
+}
+#image6-:hover{
+    position: relative;
+    background-image:linear-gradient(to right, rgba(71, 4, 134, 0.863), rgba(121, 0, 154, 0.868));
+    transform: scale(1.2,1.2);
+    width: 50%;
+    z-index: 1;
+    flex-shrink: unset;
+}
+
+#boximg6-{
+    height: 240px;
+    width: 190px;
+    background-image: url(./img5.jpeg);
+    border-radius: 22px;
+    background-size: cover;
+    border: 2px solid white;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.img6-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.btn6-{
+    background-color: greenyellow;
+    color: black;
+    margin-top: 10px;
+}
+#image6-:hover .btn5{
+    background-color: black;
+    color: greenyellow;
+}
+#image7-{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid greenyellow;
+    height: 500px;
+    width: 49%;
+    border-radius: 33px;
+    transition-duration: 2s;
+    background-color: rgba(255, 255, 255, 0.089);
+    position: relative;
+}
+#image7-:hover{
+    position: relative;
+    background-image:linear-gradient(to right, rgba(71, 4, 134, 0.863), rgba(121, 0, 154, 0.868));
+    transform: scale(1.2,1.2);
+    width: 50%;
+    z-index: 1;
+    flex-shrink: unset;
+}
+
+
+#boximg7- img{
+    height: 240px;
+    width: 190px;
+    border-radius: 22px;
+    background-size: cover;
+    border: 2px solid white;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+#profile-image{
+    height: 240px;
+    width: 190px;
+    border-radius: 22px;
+    background-size: cover;
+    border: 2px solid white;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.img7-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.btn7-{
+    background-color: greenyellow;
+    color: black;
+    margin-top: 10px;
+}
+#image7-:hover .btn7-{
+    background-color: black;
+    color: greenyellow;
+}
+
+.addbutton{
+    text-align: center;
+}
+
+#addbutton{
+    border: none;
+}
+
+.cyberinter{
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    width: 550px;
+    border-radius: 22px;
+    border: 2px solid greenyellow;
+    font-size: 80px;
+    height: 100px;
+    font-family: Glory;
+    top: 10px;
+    margin-bottom: 10px;
+}
+
+.cyberinterbox{
+    display: flex;
+    justify-content: center;
+}
+
+
+@font-face {
+    font-family: Glory;
+    src: url(../Glory-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Gloryitalic;
+    src: url(../Glory-Italic-VariableFont_wght.ttf);
+}

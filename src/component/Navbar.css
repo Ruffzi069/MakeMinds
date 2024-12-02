@@ -1,0 +1,72 @@
+.navtitle{
+    height: 50px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    gap: 45px;
+    background-image:linear-gradient(to right, rgb(71, 4, 134), rgb(121, 0, 154));
+}
+.logo{
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 14px;
+    position: relative;
+    margin-top: 4px;
+    margin-right: 820px;
+    transition-duration: 0.3s;
+    box-shadow: -2px -2px rgb(165, 253, 32);
+}
+.logo:hover{
+    transform:scale(1.2);
+}
+
+.eff{
+    font-size: 23px;
+    font-family: Glory;
+    position: relative;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 18px;
+    height: 25px;
+    width: 95px;
+    transition-duration: 0.3s;
+    text-decoration: none;
+    box-shadow: 2px 2px black;
+    background-color: rgb(165, 253, 32);
+    color: black;
+}
+.eff:hover{
+    background-color: black;
+    color: white;
+    box-shadow: -2px 2px rgb(165, 253, 32);
+}
+
+#log{
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px rgb(165, 253, 32);
+}
+#log:hover{
+    transform: scale(1.2);
+    box-shadow: -2px 2px rgb(165, 253, 32);
+}
+
+.butt{
+    position: relative;
+    height: 20px;
+}
+
+@font-face {
+    font-family: Glory;
+    src: url(../Glory-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Gloryitalic;
+    src: url(../Glory-Italic-VariableFont_wght.ttf);
+}

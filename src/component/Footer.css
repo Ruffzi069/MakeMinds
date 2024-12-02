@@ -1,0 +1,59 @@
+.footer{
+    background-image:linear-gradient(to right, rgb(71, 4, 134), rgb(121, 0, 154));
+    height: 370px;
+    width: 100%;
+    font-size: 22px;
+    font-family: Glory;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+#con1{
+    height: 370px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#con2{
+    height: 370px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#con3{
+    height: 370px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style-type: none;
+    margin-bottom: 3px;
+}
+#a{
+    color: white;
+    text-decoration: none;
+}
+h2{
+    color: white;
+}
+#a:hover{
+    text-decoration: underline;
+}
+
+@font-face {
+    font-family: Glory;
+    src: url(../Glory-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Gloryitalic;
+    src: url(../Glory-Italic-VariableFont_wght.ttf);
+}

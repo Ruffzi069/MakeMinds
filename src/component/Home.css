@@ -1,0 +1,199 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+.makeminds{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./wavy.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    margin-bottom: 50px;
+}
+.makemind1{
+    font-size: 70px;
+    font-family: Glory;
+}
+.makemind2{
+    font-size: 45px;
+    font-family: Glory;
+    color: rgb(159, 250, 23);
+}
+
+
+.empty{
+    color: white;
+    height: 100px;
+}
+
+#domain_enter{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.domain_enter{
+    text-align: center;
+    height: 30px;
+    width: 500px;
+    border-radius: 14px;
+    border: 2px solid rgb(165, 253, 32);
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: Glory;
+    margin-bottom: 8px;
+}
+
+.domain_enter::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+.list{
+    width: 1000px;
+}
+button{
+    height: 28px;
+    width: 70px;
+    border-radius: 12px;
+    color: white;
+    background-color: black;
+    font-family: Glory;
+    font-size: 18px;
+    border: 2px solid white;
+    transition-duration: 0.3s;
+}
+button:hover{
+    transform: scale(1.1,1.1);
+}
+#container1{
+display: flex;
+justify-content: center;
+gap: 1px;
+margin-bottom: 1px;
+}
+.bx1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 33px;
+    font-family: Glory;
+    position: relative;
+    height: 300px;
+    width: 500px;
+    border: 2px solid rgb(165, 253, 32);
+    border-radius: 22px;
+    color: black;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.816);
+    transition-duration: 0.2s;
+}
+.bx1:hover{
+    background-image:linear-gradient(to right, rgba(3, 252, 65, 0.703), rgba(165, 253, 32, 0.703));
+    opacity: 1;
+    transform: scale(1.1);
+    z-index: 4;
+}
+.bx2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 33px;
+    font-family: Glory;
+    height: 300px;
+    width: 390px;
+    border: 2px solid rgb(165, 253, 32);
+    border-radius: 22px;
+    color: black;
+    position: relative;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.816);
+    transition-duration: 0.2s;
+}
+.bx2:hover:hover{
+    background-image:linear-gradient(to right, rgba(3, 252, 65, 0.703), rgba(165, 253, 32, 0.703));
+    opacity: 1;
+    transform: scale(1.1);
+    z-index: 4;
+}
+#container2{
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+    }
+.bx3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 33px;
+    font-family: Glory;
+    height: 300px;
+    width: 390px;
+    border: 2px solid rgb(165, 253, 32);
+    border-radius: 22px;
+    color: black;
+    position: relative;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.816);
+    transition-duration: 0.2s;
+}
+.bx3:hover{
+    background-image:linear-gradient(to right, rgba(3, 252, 65, 0.703), rgba(165, 253, 32, 0.703));
+    opacity: 1;
+    transform: scale(1.1);
+    z-index: 4;
+}
+.bx4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 33px;
+    font-family: Glory;
+    height: 300px;
+    width: 500px;
+    border: 2px solid rgb(165, 253, 32);
+    border-radius: 22px;
+    color: black;
+    position: relative;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.816);
+    transition-duration: 0.2s;
+}
+.bx4:hover{
+    background-image:linear-gradient(to right, rgba(3, 252, 65, 0.703), rgba(165, 253, 32, 0.703));
+    opacity: 1;
+    transform: scale(1.1);
+    z-index: 4;
+}
+
+@font-face {
+    font-family: Sedwig;
+    src: url(../SedgwickAveDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: Nova;
+    src: url(../NovaSquare-Regular.ttf);
+}
+@font-face {
+    font-family: Glory;
+    src: url(../Glory-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Gloryitalic;
+    src: url(../Glory-Italic-VariableFont_wght.ttf);
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <div>
+        <form action="/" method="post" enctype="multipart/form-data">
+        <label> Upload Your Photo : <input type="file" name="image" onchange=""></label><br>
+        <label >Name : <input type='text' placeholder='Enter your name' name='name'></input></label><br>
+        <label >About yourself : <input type='text' placeholder='Enter something about you' name='intro'></input></label><br>
+        <label >Price : <input type='number' placeholder='Enter your hourly charges' name='price'></input></label><br>
+        <input type="submit" onclick="myFunction()">
+        </form>
+    </div>
+</body>
+<script src="./Newpr.js">
+    function myFunction() {
+        location.replace("https://www.w3schools.com")
+      }
+      function handleFile(){
+        const file = event.target.files[0];
+    const reader = new FileReader();
+    
+    reader.onload = () => {
+      setImage(reader.result);
+    };
+
+    if (file) {
+      reader.readAsDataURL(file);
+    }
+
+      }
+</script>
+</html>
